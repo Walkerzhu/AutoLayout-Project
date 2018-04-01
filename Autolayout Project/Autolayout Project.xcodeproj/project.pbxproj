@@ -15,6 +15,8 @@
 		1DAFEAF31EA34E21007BD325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DAFEAF11EA34E21007BD325 /* LaunchScreen.storyboard */; };
 		1DAFEAFE1EA34E21007BD325 /* Autolayout_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFEAFD1EA34E21007BD325 /* Autolayout_ProjectTests.m */; };
 		1DAFEB091EA34E21007BD325 /* Autolayout_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFEB081EA34E21007BD325 /* Autolayout_ProjectUITests.m */; };
+		1DB1E8BE1ED1C12D008C31DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1E8BC1ED1C12D008C31DE /* FirstViewController.m */; };
+		1DB1E8BF1ED1C12D008C31DE /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB1E8BD1ED1C12D008C31DE /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		1DAFEB041EA34E21007BD325 /* Autolayout ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autolayout ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DAFEB081EA34E21007BD325 /* Autolayout_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autolayout_ProjectUITests.m; sourceTree = "<group>"; };
 		1DAFEB0A1EA34E21007BD325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB1E8BB1ED1C12D008C31DE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1DB1E8BC1ED1C12D008C31DE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1DB1E8BD1ED1C12D008C31DE /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				1DAFEAF11EA34E21007BD325 /* LaunchScreen.storyboard */,
 				1DAFEAF41EA34E21007BD325 /* Info.plist */,
 				1DAFEAE31EA34E21007BD325 /* Supporting Files */,
+				1DB1E8BB1ED1C12D008C31DE /* FirstViewController.h */,
+				1DB1E8BC1ED1C12D008C31DE /* FirstViewController.m */,
+				1DB1E8BD1ED1C12D008C31DE /* FirstViewController.xib */,
 			);
 			path = "Autolayout Project";
 			sourceTree = "<group>";
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					1DAFEADF1EA34E20007BD325 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CER7RFJAFF;
 						ProvisioningStyle = Automatic;
 					};
 					1DAFEAF81EA34E21007BD325 = {
@@ -249,6 +258,7 @@
 				1DAFEAF31EA34E21007BD325 /* LaunchScreen.storyboard in Resources */,
 				1DAFEAF01EA34E21007BD325 /* Assets.xcassets in Resources */,
 				1DAFEAEE1EA34E21007BD325 /* Main.storyboard in Resources */,
+				1DB1E8BF1ED1C12D008C31DE /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +286,7 @@
 				1DAFEAEB1EA34E21007BD325 /* ViewController.m in Sources */,
 				1DAFEAE81EA34E21007BD325 /* AppDelegate.m in Sources */,
 				1DAFEAE51EA34E21007BD325 /* main.m in Sources */,
+				1DB1E8BE1ED1C12D008C31DE /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CER7RFJAFF;
 				INFOPLIST_FILE = "Autolayout Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zcw.Autolayout-Project";
@@ -435,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CER7RFJAFF;
 				INFOPLIST_FILE = "Autolayout Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zcw.Autolayout-Project";
@@ -507,6 +520,7 @@
 				1DAFEB0F1EA34E21007BD325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DAFEB101EA34E21007BD325 /* Build configuration list for PBXNativeTarget "Autolayout ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				1DAFEB121EA34E21007BD325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DAFEB131EA34E21007BD325 /* Build configuration list for PBXNativeTarget "Autolayout ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +538,7 @@
 				1DAFEB151EA34E21007BD325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
